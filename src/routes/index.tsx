@@ -12,13 +12,13 @@ import { Footer } from "@/components/landing/Footer";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Nexus — Digital Marketing & Software Development Agency" },
+      { title: "Nurex Solutions — Digital Marketing & Software Development Agency" },
       {
         name: "description",
         content:
           "Premium digital marketing and software development agency. Scale your brand 2x and 3x with PPC, SEO, web design, and mobile app development.",
       },
-      { property: "og:title", content: "Nexus — Digital Marketing & Software Development Agency" },
+      { property: "og:title", content: "Nurex Solutions — Digital Marketing & Software Development Agency" },
       {
         property: "og:description",
         content:

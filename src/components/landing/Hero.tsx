@@ -38,7 +38,7 @@ export function Hero() {
           transition={{ duration: 0.7, delay: 0.15 }}
           className="mx-auto mt-6 max-w-2xl text-base text-muted-foreground sm:text-lg"
         >
-          From paid acquisition to pixel-perfect product builds — Nexus is the partner
+          From paid acquisition to pixel-perfect product builds — Nurex Solutions is the partner
           founders trust to scale revenue, sharpen brand, and ship software that wins.
         </motion.p>
 
@@ -84,7 +84,7 @@ export function Hero() {
           <div className="overflow-hidden rounded-3xl border border-border shadow-[var(--shadow-card)]">
             <img
               src={heroImg}
-              alt="Nexus marketing and engineering team collaborating"
+              alt="Nurex Solutions marketing and engineering team collaborating"
               width={1600}
               height={1024}
               className="h-auto w-full object-cover"

@@ -11,7 +11,7 @@ interface Quote {
 const quotes: Quote[] = [
   {
     quote:
-      "Nexus rebuilt our funnel from the ground up. Six months in, paid CAC is down 41% and revenue is up 2.6x. They feel like an in-house team — only sharper.",
+      "Nurex Solutions rebuilt our funnel from the ground up. Six months in, paid CAC is down 41% and revenue is up 2.6x. They feel like an in-house team — only sharper.",
     name: "Amelia Chen",
     role: "VP Growth, Lumen Analytics",
   },

@@ -24,7 +24,7 @@ export function Footer() {
               <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary text-primary-foreground">
                 N
               </span>
-              <span>Nexus</span>
+              <span>Nurex Solutions</span>
             </a>
             <p className="mt-5 max-w-sm text-sm text-dark-foreground/70">
               We're a senior digital marketing and software development team helping ambitious
@@ -103,7 +103,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col items-start justify-between gap-3 border-t border-dark-foreground/10 pt-6 text-xs text-dark-foreground/60 sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} Nexus Agency. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Nurex Solutions. All rights reserved.</p>
           <a href="#" className="hover:text-primary">Privacy Policy</a>
         </div>
       </div>

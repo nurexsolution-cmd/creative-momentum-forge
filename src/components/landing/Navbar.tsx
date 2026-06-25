@@ -28,7 +28,7 @@ export function Navbar() {
           <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary text-primary-foreground">
             N
           </span>
-          <span>Nexus</span>
+          <span>Nurex Solutions</span>
         </a>
 
         <nav className="hidden items-center gap-1 md:flex">

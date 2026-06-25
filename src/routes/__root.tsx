@@ -77,14 +77,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Nexus — Digital Marketing & Software Development Agency" },
+      { title: "Nurex Solutions — Digital Marketing & Software Development Agency" },
       { name: "description", content: "Premium digital marketing and software development agency. We scale brands with PPC, SEO, web design, and mobile app development." },
-      { name: "author", content: "Nexus Agency" },
-      { property: "og:title", content: "Nexus — Digital Marketing & Software Development Agency" },
+      { name: "author", content: "Nurex Solutions" },
+      { property: "og:title", content: "Nurex Solutions — Digital Marketing & Software Development Agency" },
       { property: "og:description", content: "We scale ambitious brands 2x and 3x with measurable marketing and engineering." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Nexus" },
+      { name: "twitter:site", content: "@NurexSolutions" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
