@@ -4,14 +4,6 @@ const colMarketing = ["PPC Management", "SEO", "Social Media", "Content Marketin
 const colDev = ["Web Design", "Web Development", "Mobile Apps", "UI/UX Design", "E-commerce"];
 const colCompany = ["About", "Case Studies", "Blog", "Careers", "Contact"];
 
-const offices = [
-  { city: "New York", flag: "🇺🇸" },
-  { city: "London", flag: "🇬🇧" },
-  { city: "Lisbon", flag: "🇵🇹" },
-  { city: "Singapore", flag: "🇸🇬" },
-  { city: "Dubai", flag: "🇦🇪" },
-];
-
 const partners = ["Google Partner", "Meta Business", "HubSpot", "Shopify Plus"];
 
 export function Footer() {
@@ -57,20 +49,6 @@ export function Footer() {
               </span>
             }
           />
-        </div>
-
-        <div className="mt-16 border-t border-dark-foreground/10 pt-10">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-dark-foreground/60">
-            Our Offices
-          </p>
-          <div className="mt-5 flex flex-wrap gap-x-8 gap-y-3">
-            {offices.map((o) => (
-              <span key={o.city} className="flex items-center gap-2 text-sm font-medium">
-                <span aria-hidden className="text-lg">{o.flag}</span>
-                {o.city}
-              </span>
-            ))}
-          </div>
         </div>
 
         <div className="mt-12 flex flex-col gap-6 border-t border-dark-foreground/10 pt-8 md:flex-row md:items-center md:justify-between">
